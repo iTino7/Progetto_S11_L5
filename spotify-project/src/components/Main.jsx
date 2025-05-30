@@ -34,7 +34,7 @@ function Main() {
 
   return (
     <>
-      <Container xs={12} md={9} className="offset-md-1 mainPage mb-5">
+      <Container xs={12} md={9} className="offset-md-2 mainPage mb-5">
         <Container className="row">
           <Row>
             <Col xs={9} lg={11} className="mainLinks d-none d-md-flex">
@@ -60,6 +60,7 @@ function Main() {
                       className="img-fluid me-5"
                       src={item.album.cover_medium}
                       alt="track"
+                      style={{ cursor: "pointer" }}
                     />
 
                     <p className="mb-1">{item.title}</p>
@@ -86,6 +87,7 @@ function Main() {
                       className="img-fluid me-5"
                       src={item.album.cover_medium}
                       alt="track"
+                      style={{ cursor: "pointer" }}
                     />
 
                     <p className="mb-1">{item.title}</p>
@@ -112,6 +114,7 @@ function Main() {
                       className="img-fluid me-5"
                       src={item.album.cover_medium}
                       alt="track"
+                      style={{ cursor: "pointer" }}
                     />
 
                     <p className="mb-1">{item.title}</p>
